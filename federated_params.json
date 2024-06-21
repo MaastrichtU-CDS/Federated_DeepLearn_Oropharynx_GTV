@@ -1,0 +1,27 @@
+{
+	"image_shape": [512, 512, 1],
+	"number_of_federated_cycles": 10,
+	"num_epochs": 10,
+	"centres": ["/Montreal",
+				"/HN1",
+				"/OPC",
+				"/MDA"],
+	"data_path": "/mnt/localscratch/datasets",
+    "height": 512,
+	"width": 512,
+	"patch_shape": [144, 144, 144],
+	"log_path": "/FederatedLogs",
+
+	"num_classes": 2,
+	"batch_size": 1,
+
+	"save_steps": 10,
+    "eval_steps": 1,
+
+	"learning_rate": 0.0001,
+	"decay_rate": 0.1,
+	"opt_momentum": 0.5,
+	"dropout_rate": 0,
+	"l2_loss": 0.0001
+
+}
